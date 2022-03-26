@@ -10,8 +10,8 @@ function countUpwardsByThree() {
 }
 countUpwardsByThree();
 
-// Problem 2:
 
+// Problem 2:
 
 function guessMyFavoriteNumber(guess) {
     var favoriteNumber = 3
