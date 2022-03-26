@@ -1,4 +1,4 @@
-// Question 1:
+// Problem 1:
 
 function powersOfThree() { // A function that prints out powers of 3 up until the 9th power
     count = 9
@@ -19,7 +19,7 @@ function powersOfThree() { // A function that prints out powers of 3 up until th
 
 var timeIDpowersOfThree = setTimeout(powersOfThree, 3000)
 
-// Question 2
+// Problem 2:
 
 function everyTenSeconds() {
     console.log("Hello World!");
