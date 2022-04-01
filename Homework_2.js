@@ -1,5 +1,6 @@
 // Problem 1:
 
+// Function prints to the terminal all multiples of 3
 function countUpwardsByThree() {
     var count = 30;
     for (var i = 0; i <= count; i++) {
@@ -13,6 +14,7 @@ countUpwardsByThree();
 
 // Problem 2:
 
+// Function returns a string if the argument passed is equal to the "favoriteNumber" variable
 function guessMyFavoriteNumber(guess) {
     var favoriteNumber = 3
     if (guess == favoriteNumber) {
@@ -31,6 +33,7 @@ guessMyFavoriteNumber(5);
 
 // Problem 3:
 
+// Function prints out an argument's corresponding weekday
 function convertNumberToDay(number) {
     
     switch(number) {
