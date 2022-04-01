@@ -1,5 +1,6 @@
 // // Problem 1:
 
+// Function returns the sum of two squares' area whose lengths are the arguments
 function sumOfSquareAreas(a, b){
     return ((a*a) + (b*b));
 }
@@ -14,6 +15,8 @@ console.log(input_3)
 
 
 // Problem 2:
+
+// Function returns a student's grade based on 3 arguments
 function gradeCalculator(homeworkAvg, quizAvg, examAvg) {
     return ((.10 * homeworkAvg) + (.15 * quizAvg) + (.75 * examAvg))
 }
