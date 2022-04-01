@@ -26,10 +26,11 @@ function everyTenSeconds() {
     console.log("Hello World!");
 }
 
+var intervalID = setInterval(everyTenSeconds, 10000);
+    
 function clearingInterval() {
     clearInterval(intervalID);
 }
-var intervalID = setInterval(everyTenSeconds, 10000); 
 
 // After 2 minutes has has passed, the function "everyTenSeconds" will stop looping
 setTimeout(clearingInterval, 120000, intervalID);
