@@ -9,7 +9,7 @@ console.log(reverse("Hate"));
 console.log(reverse("JavaScript"));
 
 // Problem 2
-// Counts the number of vowels in a string and returns that number
+// Counts the number of total vowels in a string and returns that number
 
 function numVowels(string) {
     var vowels = ["a","e","i","o","u"];
@@ -26,9 +26,35 @@ function numVowels(string) {
 
 }
 
+// Derivative of the above function but it doesn't count # of total vowels (i.e. duplicates), it only counts the # of unique vowels
+function numVowelsNoDuplicates(string) {
+    count = 0
+    var vowels = ["a","e","i","o","u"];
+    var vowelHolder = [];
+    string = string.toLowerCase();
+
+    for (var i = 0; i < string.length; i++) {
+        if ((vowels.indexOf(string[i]) != -1) && (vowelHolder.indexOf(string[i]) == -1)) {
+            count +=1;
+            vowelHolder += string[i];
+        }
+        else {
+            continue;
+        }
+    }
+
+    return count;
+
+}
+
 console.log(numVowels("I"));
 console.log(numVowels("Hate"));
-console.log(numVowels("Coding"));
+console.log(numVowels("Coding in JavaScript"));
+
+console.log(numVowelsNoDuplicates("I"));
+console.log(numVowelsNoDuplicates("Hate"));
+console.log(numVowelsNoDuplicates("Coding in JavaScript"));
+
 
 // Problem 3
 // function that returns the number of strings in an array that have a length less than a predetermined length
