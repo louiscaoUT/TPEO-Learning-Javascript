@@ -48,7 +48,7 @@ function numStringsShorterThanLength(string, length) {
 
 arrayOne = ["I", "Hate", "Coding"];
 arrayTwo = ["JavaScript", "Blows", "Hot", "Cock"];
-arrayThree = ["Data", "Structures", "And", "Algorthims", "Is", "Way", "too", "Hard"];
+arrayThree = ["Data", "Structures", "And", "Algorthims", "Are", "Way", "Too", "Hard"];
 
 console.log(numStringsShorterThanLength(arrayOne, 0));
 console.log(numStringsShorterThanLength(arrayTwo, 4));
