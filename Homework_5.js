@@ -31,7 +31,7 @@ console.log(numVowels("Hate"));
 console.log(numVowels("Coding"));
 
 // Problem 3
-// function that returns the number of string in an array that have a length less than a predetermined length
+// function that returns the number of strings in an array that have a length less than a predetermined length
 
 function numStringsShorterThanLength(string, length) {
 
