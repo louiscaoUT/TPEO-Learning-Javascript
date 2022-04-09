@@ -13,7 +13,7 @@ console.log(reverse("JavaScript"));
 
 function numVowels(string) {
     var vowels = ["a","e","i","o","u"];
-    count = 0;
+    var count = 0;
     string = string.toLowerCase();
     
     for (var i = 0; i < string.length; i++) {
@@ -61,7 +61,7 @@ console.log(numVowelsNoDuplicates("Coding in JavaScript"));
 
 function numStringsShorterThanLength(string, length) {
 
-    count = 0;
+    var count = 0;
 
     for (var i = 0; i < string.length; i++) {
         if (string[i].length < length) {
@@ -72,9 +72,9 @@ function numStringsShorterThanLength(string, length) {
 
 }
 
-arrayOne = ["I", "Hate", "Coding"];
-arrayTwo = ["JavaScript", "Blows", "Hot", "Cock"];
-arrayThree = ["Data", "Structures", "And", "Algorithms", "Are", "Way", "Too", "Hard"];
+var arrayOne = ["I", "Hate", "Coding"];
+var arrayTwo = ["JavaScript", "Blows", "Hot", "Cock"];
+var arrayThree = ["Data", "Structures", "And", "Algorithms", "Are", "Way", "Too", "Hard"];
 
 console.log(numStringsShorterThanLength(arrayOne, 0));
 console.log(numStringsShorterThanLength(arrayTwo, 4));
