@@ -12,35 +12,31 @@ function Car (model, year, color, mpg) {
 }
 
 // Defining 3 Car Objects and their respective arguments
-var carOne = new Car("BMW", 2020, "Black", 1);
-var carTwo = new Car("Mercedes", 2021, "Red", 2);   
-var carThree = new Car("Porsche", 2022, "Yellow", 3);
+var toyataOne = new Car("Supra", 2020, "Black", 1);
+var mercedesTwo = new Car("G-Wagon", 2021, "Red", 2);   
+var audiThree = new Car("I-8", 2022, "Yellow", 3);
 
-// console.log(carOne.mpg);
-// console.log(carTwo.mpg);
-// console.log(carThree.mpg);
+console.log(toyataOne.mpg);
+console.log(mercedesTwo.mpg);
+console.log(audiThree.mpg);
 
 
 // Question 2
 
 // Vehicle Object whose properties contain the 3 objects created in the previous question
-var Vehicle = {
-    
-   one: {
-       car: carOne
-   },
 
-   two: {
-       car: carTwo
-   },
+function Vehicle(car) {
 
-   three: {
-       car: carThree
-   }
+    this.car = car;
 
 
-};
+}
 
-console.log(Vehicle.one.car.mpg);
-console.log(Vehicle.two.car.mpg);
-console.log(Vehicle.three.car.mpg);
+var toyata = new Vehicle(toyataOne);
+var mercedes = new Vehicle(mercedesTwo);
+var audi = new Vehicle(audiThree);
+
+
+console.log(toyata.car.mpg)
+console.log(mercedes.car.mpg)
+console.log(audi.car.mpg)

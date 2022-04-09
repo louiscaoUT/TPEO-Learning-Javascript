@@ -2,11 +2,11 @@
 
 // A function that prints out powers of 3 up until the 9th power, also prints a string when my favorite power of 3 prints 
 function powersOfThree() { 
-    count = 9
-    startCount = 3
+    var count = 9
+    var startCount = 3
     
     for (var i = 0; i <= count; i++) {
-        result = startCount ** i;
+        var result = startCount ** i;
         console.log(result);
         
         if (i == 1) {
