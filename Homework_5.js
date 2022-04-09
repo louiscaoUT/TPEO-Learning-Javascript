@@ -28,7 +28,7 @@ function numVowels(string) {
 
 // Derivative of the above function but it doesn't count # of total vowels (i.e. duplicates), it only counts the # of unique vowels
 function numVowelsNoDuplicates(string) {
-    count = 0
+    var count = 0
     var vowels = ["a","e","i","o","u"];
     var vowelHolder = [];
     string = string.toLowerCase();
