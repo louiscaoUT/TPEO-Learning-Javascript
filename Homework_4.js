@@ -14,7 +14,7 @@ function Car (model, year, color, mpg) {
 // Defining 3 Car Objects and their respective arguments
 var toyataOne = new Car("Supra", 2020, "Black", 1);
 var mercedesTwo = new Car("G-Wagon", 2021, "Red", 2);   
-var audiThree = new Car("I-8", 2022, "Yellow", 3);
+var audiThree = new Car("i8", 2022, "Yellow", 3);
 
 console.log(toyataOne.mpg);
 console.log(mercedesTwo.mpg);
