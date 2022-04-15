@@ -25,7 +25,7 @@ for (var i = 0; i < array.length; i += 10) {
     parentArray.push(array.slice(i, i + 10));
 }
 
-// console.log(parentArray);
+console.log(parentArray);
 
 
 // Problem Two
@@ -48,10 +48,9 @@ function getCarsBetweenIds(idMin, idMax) {
     return slice;
 }
 
-// console.log(getCarsBetweenIds(10, 20));
-// console.log(getCarsBetweenIds(0, 35));
-// console.log(getCarsBetweenIds(40, 41));
-console.log(parentArray[1][1])
+console.log(getCarsBetweenIds(10, 20));
+console.log(getCarsBetweenIds(0, 35));
+console.log(getCarsBetweenIds(40, 41));
 
 
 
