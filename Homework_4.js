@@ -1,7 +1,7 @@
 // Question 1
 
 
-// An Object called "Car" that returns the value of a defined Car's model, year, color, or mpg
+// Car constructor to create Car objects that have the properties given below
 function Car (model, year, color, mpg) {
 
     this.model = model;
@@ -11,7 +11,6 @@ function Car (model, year, color, mpg) {
 
 }
 
-// Defining 3 Car Objects and their respective arguments
 var toyataOne = new Car("Supra", 2020, "Black", 1);
 var mercedesTwo = new Car("G-Wagon", 2021, "Red", 2);   
 var audiThree = new Car("i8", 2022, "Yellow", 3);
@@ -23,8 +22,7 @@ console.log(audiThree.mpg);
 
 // Question 2
 
-// Vehicle Object whose properties contain the 3 objects created in the previous question
-
+// Vehicle Constructor whose property is the car argument itself
 function Vehicle(car) {
 
     this.car = car;

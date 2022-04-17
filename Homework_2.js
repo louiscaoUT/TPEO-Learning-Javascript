@@ -1,6 +1,6 @@
 // Problem 1:
 
-// Function prints to the terminal all multiples of 3
+// Function prints to the terminal all multiples of 3 up until 30
 function countUpwardsByThree() {
     var count = 30;
     for (var i = 0; i <= count; i++) {
@@ -33,7 +33,7 @@ guessMyFavoriteNumber(5);
 
 // Problem 3:
 
-// Function prints out an argument's corresponding weekday
+// Prints out the name of the day that corresponds to that day's weekday number
 function convertNumberToDay(number) {
     
     switch(number) {
@@ -58,6 +58,8 @@ function convertNumberToDay(number) {
         case 6:
             console.log("Saturday");
             break;
+        default:
+            console.log("Could not find a day")
     }
 }
 
